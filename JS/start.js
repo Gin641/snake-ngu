@@ -1,0 +1,12 @@
+let control;
+let score = 0;
+let gameOver = false;
+let eat = new Audio();
+let dead = new Audio();
+const XYFOOD = 303;
+const KEY_LEFT = 37;
+const KEY_UP = 38;
+const KEY_RIGHT = 39;
+const KEY_DOWN = 40;
+const START = 10;
+const END = 360 - 10;
